@@ -6,7 +6,7 @@ from openfabric_pysdk.context import OpenfabricExecutionRay
 from openfabric_pysdk.loader import ConfigClass
 from time import time
 import openai
-openai.api_key="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"
+openai.api_key="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"
 
 ############################################################
 # Callback function called on update config
