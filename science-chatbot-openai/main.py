@@ -5,12 +5,9 @@ from ontology_dc8f06af066e4a7880a5938933236037.simple_text import SimpleText
 from openfabric_pysdk.context import OpenfabricExecutionRay
 from openfabric_pysdk.loader import ConfigClass
 from time import time
-from dotenv import load_dotenv
 import openai
 
-load_dotenv()
-
-openai.api_key = os.getenv('OPENAI_KEY')
+openai.api_key = "KEY_HERE"
 ############################################################
 # Callback function called on update config
 ############################################################
